@@ -7,7 +7,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "serve-products": "json-server --watch db.json --port 3001",
-    "examples": "node examples/demo.js"
+    "demo": "node examples/demo.js",
+    "input": "node examples/input.js"
   },
   "devDependencies": {
     "axios": "^1.7.9",
